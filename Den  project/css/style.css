@@ -1,0 +1,456 @@
+*,*::after,*::before{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+
+    clear: both;
+    display: table;
+    content: ' ';
+
+}
+ span hr{
+    color: black;
+    margin: 10px 0;
+    font-weight: bolder;
+    border-collapse:collapse;
+    border: .3px solid black;
+}
+header{
+    text-align: center;
+}
+.header-top{
+
+    text-align: center;
+}
+.mobail-menu{
+    position: relative;
+    z-index: 1;
+}
+
+
+.top-icon{
+
+    height: 60px ;
+    width: 100px;
+    float: none;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.top-icon img{
+    padding: 5px;
+
+}
+
+
+.top-menu ul {
+
+    margin-top:40px;
+}
+
+.top-menu ul li{
+
+    list-style: none;
+    padding: 10px 0;
+    margin: 15px auto;
+    width: 60%;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.top-menu ul li:hover{
+    background-color: rgb(126, 125, 125);
+    transition: .4s;
+}
+.top-menu ul li a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+    /* ========>>  Top Menu End Here <<< ========= */
+
+     .background-img img{
+
+            background-size: cover;
+            height: 500px;
+            background-repeat: no-repeat;
+            width:80%;
+            margin: 10px auto;
+            padding: 0;
+    }
+
+    .background-text{
+
+        width: 90%;
+        margin: 10px auto;
+
+    }
+    .background-text h1 span{
+
+        display: block;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+
+    }
+    .background-text h1 {
+
+        display: block;
+        text-align:center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2.5rem;
+        padding: 10px;
+        color: red;
+        
+    }
+    .background-text p {
+        display: block;
+        text-align: justify;
+        padding: 10px 30px;
+        font-size: 17px;
+        
+    }
+    .top-button button{
+
+       background-color: rgb(219, 30, 30);
+       border: none;
+       padding: 10px 10px;
+       height: 50px;
+       width: 180px;
+       margin: 10px auto;
+    }
+    .top-button{
+        
+        text-align: center;
+        
+
+    }
+    .top-button a{
+        text-decoration: none;
+        font-size: 22px;
+        padding: 15px 10px;
+        color: white;
+    }
+    /* <!-- /* ========>> Header area  End Here <<< ========= */ 
+
+    .about-area{
+
+       margin: 80px 0;
+      }
+    .about-img img{
+       width: 90%;
+       margin: 10px auto;
+    }
+    .about-desc {
+   
+        width: 90%;
+        margin: 10px auto;
+    }
+    .about-desc h2{
+       
+        font-size: 3rem;
+        padding: 10px;
+        text-align: center;
+    }
+    .about-desc h2 span {
+        color: red;
+       
+    }
+    .about-desc p  {
+       font-size: 20px;
+       text-align: justify;
+       padding: 10px 15px;
+       
+    }
+    .about-button button{
+
+        
+       background-color: rgb(219, 30, 30);
+       border: none;
+       padding: 10px 10px;
+       height: 50px;
+       width: 180px;
+       margin: 10px auto;
+
+    }
+    .about-button{
+        margin: 10px auto;
+        text-align: center;
+    }
+    .about-button a{
+
+        text-decoration: none;
+        font-size: 22px;
+        padding: 15px 10px;
+        color: white;
+
+    }
+     .hr2 hr{
+        color: black;
+        margin: 10px auto;
+        font-weight: bolder;
+        border-collapse:collapse;
+        border: .3px solid black;
+        width: 90%;
+    
+        
+    }
+
+    .product-title {
+        
+        margin: 0 0 0 40px;
+    }
+
+    .product-title h2{
+        text-align: left;
+        font-size: 3rem;
+        padding: 10px;
+    }
+    .hr3 hr{
+
+        color: black;
+        margin: 10px;
+        font-weight: bolder;
+        border-collapse:collapse;
+        border: .3px solid black;
+        width:300px;
+
+    }
+
+    .product-title h2 span{
+       
+        color: red;
+    }
+    .product-image{
+
+        text-align: center;
+        margin: 0 auto;
+    }
+    .img-1{
+        text-align: center;
+        margin: 10px  auto;
+        display: inline-block;
+      
+        
+    }
+    .img-1 img{
+        height: 100%;
+        width: 100%;
+        border: 10px solid #e7e4e3 ;
+    }
+    .img-1 img:hover{
+   
+        border: 10px solid #ff4000 ;
+        transition: .8s;
+    }
+    .img-1 h2{
+      text-align: center;
+      padding: 10px;
+      font-size: 2rem;
+        
+    }
+
+
+
+    /* gallery section starts here  */
+
+    .g-title h2{
+
+        text-align: center;
+        font-size: 3rem;
+        padding: 10px;
+    }
+    .g-title h2 span{
+       
+        color: red;
+    }
+    .gallery{
+        margin: 50px 0;
+    }
+    .gallery-img {
+
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .gallery-img img{
+        width: 90%;
+        margin: 10px  auto;
+        text-align: center;
+    }
+
+    /* form sectiom section starts here  */
+
+
+    .input-area input,textarea{
+
+        width: 80%;
+        margin: 10px;
+        padding: 10px;
+        resize: none;
+    }
+    .form-section{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .input-area{
+        background-color: #ff4000;
+        text-align: center;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .send{
+        width: 150px;
+        padding: 10px;
+        margin: 10px auto;
+        background-color: rgb(39, 31, 31);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .form-img img {
+
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .maps img{
+        width: 95%;
+        height: 400px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .maps {
+        
+        height: 400px;
+        margin:0 auto;
+        text-align: center;
+        
+        
+    }
+
+    /* contact section starts here  */
+    .contact-area {
+        background-color:#393838;
+        margin: 60px 0 20px 0;
+        color: white;
+    }
+    .contact-title h2{
+
+        text-align: left;
+        font-size: 3rem;
+        padding: 10px;
+
+    }
+    .hr4 hr{
+
+        color: white;
+        margin: 10px;
+        font-weight: bolder;
+        border-collapse:collapse;
+        border: .3px solid rgb(255, 253, 253);
+        width:300px;
+    }
+
+    .address h2{
+
+       font-size: 2.3rem;
+       padding: 10px;
+       text-align: left;
+        
+    }
+    .address div {
+
+      
+        text-align: left;
+        padding: 5px;
+        display: flex;
+        box-sizing: border-box;
+         
+     }
+     .address div p{
+        padding: 15px;
+     }
+     .usefull-link {
+
+            
+            padding: 10px;
+     }
+     .usefull-link h2{
+
+        font-size: 2.3rem;
+        padding: 10px;
+        text-align: left;
+    }
+     .usefull-link ul li{
+
+       text-align: left;
+        padding: 10px;
+        cursor: pointer;
+        list-style: none;
+    }
+    .Overview{
+
+       
+        padding: 10px;
+
+    }
+    .Overview h2{ 
+        font-size: 2.3rem;
+        padding: 10px;
+        text-align: left;
+    }
+    .Overview ul li{
+        padding: 10px;
+        list-style: none;
+
+    }
+    .Overview .icon{
+        padding: 10px;
+
+    }
+    .Overview .icon img{
+        padding: 5px;
+        cursor: pointer;
+
+    }
+
+    .instagram h2{
+
+        font-size: 2.3rem;
+        padding: 10px;
+        text-align: left;
+
+    }
+    
+    .instagram img{
+
+        font-size: 2.3rem;
+        padding: 10px;
+        width: 47%;
+
+    }
+
+       /* contact aqrea end here  */
+
+       .footer{
+           height: 30px ;
+           width: 100%;
+           text-align: center;
+           position: relative;
+       }
+       .footer h2{
+        text-align: center;
+        margin-top: 30px;
+
+    }
